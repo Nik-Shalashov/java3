@@ -35,6 +35,4 @@ public class Main {
         System.out.println(arrayList);
     }
 
-
-
 }

@@ -11,4 +11,5 @@ public class Apple implements Fruits{
     public double getWeight() {
         return weight;
     }
+
 }

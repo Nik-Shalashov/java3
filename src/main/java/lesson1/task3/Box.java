@@ -47,4 +47,5 @@ public class Box <F extends Fruits> {
         }
         System.out.println();
     }
+
 }

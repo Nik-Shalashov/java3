@@ -12,4 +12,5 @@ public class Orange implements Fruits{
     public double getWeight() {
         return weight;
     }
+
 }

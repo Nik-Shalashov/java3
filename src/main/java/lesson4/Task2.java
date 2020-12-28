@@ -20,7 +20,7 @@ public class Task2 {
 
     private void printer1() {
         synchronized (mon) {
-                try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
+                try (BufferedWriter out = new BufferedWriter(new FileWriter(file, true))) {
                     String text = "Method 1 write this\n";
                     for (int i = 0; i < 10; i++) {
                         Thread.sleep(20);
@@ -35,7 +35,7 @@ public class Task2 {
 
     private void printer2() {
         synchronized (mon) {
-            try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
+            try (BufferedWriter out = new BufferedWriter(new FileWriter(file, true))) {
                 String text = "Method 2 write this\n";
                 for (int i = 0; i < 10; i++) {
                     Thread.sleep(20);
@@ -49,7 +49,7 @@ public class Task2 {
 
     private void printer3() {
         synchronized (mon) {
-            try (BufferedWriter out = new BufferedWriter(new FileWriter(file))) {
+            try (BufferedWriter out = new BufferedWriter(new FileWriter(file, true))) {
                 String text = "Method 3 write this\n";
                 for (int i = 0; i < 10; i++) {
                     Thread.sleep(20);

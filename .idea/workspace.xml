@@ -7,8 +7,6 @@
     <list default="true" id="259d00cb-1db2-448a-8f37-4abaec2e754e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/forLesson3Task2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/forLesson3Task2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,26 +46,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.MainClass">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Main" />
-      <module name="java3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task2and3Test">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.MainClass" />
       <module name="java3" />
@@ -80,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Task1" />
+    <configuration name="Task2and3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task2and3" />
       <module name="java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.Task3.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,39 +89,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Task2" />
+    <configuration name="Task2and3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task2and3Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Task3.Task3" />
+    <configuration name="Task2and3Test.ExceptionOfNumbersAfter4 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.Task3.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task2and3Test" />
+      <option name="METHOD_NAME" value="ExceptionOfNumbersAfter4(int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2and3Test.ExceptionOfNumbersAfter4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.Task2and3Test" />
+      <option name="METHOD_NAME" value="ExceptionOfNumbersAfter4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task2and3Test" />
+        <item itemvalue="JUnit.Task2and3Test.ExceptionOfNumbersAfter4 (1)" />
+        <item itemvalue="JUnit.Task2and3Test.ExceptionOfNumbersAfter4" />
+        <item itemvalue="Application.Task2and3" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608918642169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java 3 homework 5">
+      <created>1609181040748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609181040749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +198,7 @@
     <MESSAGE value="Java 3 homework 1" />
     <MESSAGE value="Java 3 homework 2" />
     <MESSAGE value="Java 3 homework 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 3 homework 4" />
+    <MESSAGE value="Java 3 homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 3 homework 5" />
   </component>
 </project>

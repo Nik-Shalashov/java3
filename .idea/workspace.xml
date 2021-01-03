@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="259d00cb-1db2-448a-8f37-4abaec2e754e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/annotations/AfterSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/annotations/BeforeSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/annotations/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +24,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="java3hw4" />
+        <entry key="$PROJECT_DIR$" value="java3hw6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,13 +67,13 @@
       <recent name="lesson6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task2and3Test">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.MainClass" />
+  <component name="RunManager" selected="Application.MainClass (1)">
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.MainClass" />
       <module name="java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (1)" />
+        <item itemvalue="Application.Task2and3" />
         <item itemvalue="JUnit.Task2and3Test" />
         <item itemvalue="JUnit.Task2and3Test.ExceptionOfNumbersAfter4 (1)" />
         <item itemvalue="JUnit.Task2and3Test.ExceptionOfNumbersAfter4" />
-        <item itemvalue="Application.Task2and3" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609181040749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java 3 homework 6">
+      <created>1609486124261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609486124261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +211,7 @@
     <MESSAGE value="Java 3 homework 2" />
     <MESSAGE value="Java 3 homework 4" />
     <MESSAGE value="Java 3 homework 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 3 homework 5" />
+    <MESSAGE value="Java 3 homework 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 3 homework 6" />
   </component>
 </project>

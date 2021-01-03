@@ -38,5 +38,4 @@ public class TestGeneric <T> {
         }
         System.out.println();
     }
-
 }
